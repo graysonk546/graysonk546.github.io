@@ -1,0 +1,134 @@
+
+body
+{
+    background-color: aquamarine;
+    padding: 1%;
+}
+
+.title
+{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.subtitle
+{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.headshot
+{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 25px;
+    border-radius: 100px;
+    /* background-color: white; */
+}
+
+@media (max-width:1400px) {
+    .headshot {
+        display: none;
+    }
+}
+
+@media (max-height:600px) {
+    .edu {
+        display: none;
+    }
+
+    .work {
+        display: none;
+    }
+}
+
+
+.title_block
+{
+    background-color: pink;
+    margin: 20px;
+    padding-left: 25px;
+    font-family: Arial;
+    text-align: left;
+    display: inline-block;
+    height: 250px;
+}
+
+.edu
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: blue;
+}
+
+.edu_description
+{
+    padding-left: 20px;
+    margin: 5px;
+    float: left;
+    display: grid;
+    text-align: left;
+    background-color: red;
+}
+
+.edu_font
+{
+    margin: 5px;
+}
+
+.work
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: yellow;
+}
+
+.lhs
+{
+    display: inline-grid;
+    background-color: red; 
+    width: 40%;
+
+    float: left;
+    text-align: center;
+    font-family: Arial;
+
+    position: fixed;
+}
+
+.rhs
+{
+    display: inline-grid;
+    background-color: green;
+    width: 57%;
+    float: right;
+    text-align: center;
+    font-family: Arial;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.proj
+{
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin: 20px; */
+    display: inline-block;
+    background-color: blue;
+    position: relative;
+}
+
+.proj_title 
+{
+    text-align: left;
+    margin: 20px;
+}
